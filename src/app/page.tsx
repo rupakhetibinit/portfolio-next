@@ -1,9 +1,13 @@
-import Image from "next/image";
+import AboutSection from "@/components/AboutSection";
+import HeroSection from "@/components/HeroSection";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-between p-24">
-			<div>Hello world</div>
-		</main>
+    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
+      <HeroSection />
+      <AboutSection />
+      <ProjectsSection />
+    </main>
 	);
 }
