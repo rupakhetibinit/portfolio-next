@@ -56,7 +56,7 @@ const Navbar = (props: Props) => {
 									smooth={true}
 									duration={500}
 									onClick={() => setNavbar(!navbar)}
-									className="block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100">
+									className="block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100 select-none cursor-pointer">
 									{item.label}
 								</Link>
 							))}
