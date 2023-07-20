@@ -1,6 +1,12 @@
 import AboutSection from "@/components/AboutSection";
 import HeroSection from "@/components/HeroSection";
 import ProjectsSection from "@/components/ProjectsSection";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Binit Rupakheti | Portfolio",
+	description: "Portfolio",
+};
 
 export default function Home() {
 	return (

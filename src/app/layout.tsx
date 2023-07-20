@@ -6,10 +6,6 @@ import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-	title: "Binit Rupakheti | Portfolio",
-	description: "Portfolio",
-};
 
 export default function RootLayout({
 	children,
