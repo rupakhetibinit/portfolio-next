@@ -40,7 +40,7 @@ const AboutSection = () => {
 						</p>
 						<br />
 						<p>
-							While I don't have many hobbies, watching films, reading books,
+							While I don&#39;t have many hobbies, watching films, reading books,
 							and programming take up most of my remaining free time.
 						</p>
 						<br />
@@ -50,7 +50,7 @@ const AboutSection = () => {
 								never stop growing
 							</span>{" "}
 							and that&#39;s what I strive to do, which is why I love to
-							experiment with new stuff all the time. Currently I'm
+							experiment with new stuff all the time. Currently I&#39;m
 							experimenting and in the process of learning the Rust Programming
 							Language.
 						</p>
