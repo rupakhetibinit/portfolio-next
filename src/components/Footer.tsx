@@ -22,7 +22,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://twitter.com/suulking57"
+            href="https://twitter.com/souking57"
             rel="noreferrer"
             target="_blank"
           >

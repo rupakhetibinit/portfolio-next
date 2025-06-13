@@ -43,7 +43,7 @@ const ProjectsSection = () => {
 		<section id="projects">
 			<h1 className="my-10 text-center font-bold text-4xl">
 				Projects
-				<hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+				<hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded-sm"></hr>
 			</h1>
 
 			<div className="flex flex-col space-y-28 mb-20">
@@ -51,7 +51,7 @@ const ProjectsSection = () => {
 					return (
 						<div key={idx}>
 							<SlideUp offset="-50px 0px -50px 0px">
-								<div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
+								<div className="flex flex-col animate-slide-up-cubi-bezier animation-delay-2 md:flex-row md:space-x-12">
 									<div className=" md:w-1/2">
 										<Link href={project.link}>
 											<Image
