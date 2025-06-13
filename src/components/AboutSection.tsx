@@ -2,19 +2,19 @@ import Image from "next/image";
 import React from "react";
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
+  { skill: "C#" },
+  { skill: "Angular" },
+  { skill: "SQL Server" },
+  { skill: "Node.js" },
   { skill: "TypeScript" },
+  { skill: "Rust" },
   { skill: "React" },
   { skill: "Next.js" },
-  { skill: "Node.js" },
   { skill: "PostgreSQL" },
   { skill: "MongoDB" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Rust" },
 ];
 
 const AboutSection = () => {
@@ -40,7 +40,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              While I don&#39;t have many hobbies, watching films, reading
+              While I don&#39;t have many hobbies, watching movies, reading
               books, and programming take up most of my remaining free time.
             </p>
             <br />
@@ -50,9 +50,8 @@ const AboutSection = () => {
                 never stop growing
               </span>{" "}
               and that&#39;s what I strive to do, which is why I love to
-              experiment with new stuff all the time. Currently I&#39;m
-              experimenting and in the process of learning the Rust Programming
-              Language.
+              experiment with new stuff all the time. Currently I&#39;m in the
+              process of learning the Rust Programming Language in my free time.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -69,13 +68,6 @@ const AboutSection = () => {
                 );
               })}
             </div>
-            <Image
-              src="/hero-image.png"
-              alt=""
-              width={325}
-              height={325}
-              className="hidden md:hidden md:relative md:bottom-4 md:left-32 md:z-0"
-            />
           </div>
         </div>
       </div>

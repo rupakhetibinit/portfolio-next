@@ -30,7 +30,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded-sm shadow-sm hover:bg-teal-700"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded-sm shadow-sm hover:bg-teal-700 cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -41,7 +41,7 @@ const HeroSection = () => {
           </Link>
 
           <a
-            className="ml-4 text-neutral-100 font-semibold px-6 py-3 bg-purple-600 rounded-sm shadow-sm hover:bg-purple-700"
+            className="ml-4 text-neutral-100 font-semibold px-6 py-3 bg-purple-600 rounded-sm shadow-sm hover:bg-purple-700 cursor-pointer"
             target="_blank"
             href="/resume.pdf"
             rel="noreferrer"

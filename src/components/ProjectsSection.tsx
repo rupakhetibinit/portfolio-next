@@ -6,6 +6,14 @@ import SlideUp from "./SlideUp";
 
 const projects = [
   {
+    name: "Crust Langauge",
+    description:
+      "Crust is an interpreted programming langauge written in Rust. A bytecode Virtual Machine is already in the works and directly compiling to native-code through LLVM is the end goal. This is purely a learning based project.",
+    image: "/programming-lang.png",
+    github: "https://github.com/rupakhetibinit/crust_lang",
+    link: "https://github.com/rupakhetibinit/crust_lang",
+  },
+  {
     name: "Breakout Game",
     description:
       "Breakout Game built with Rust + Wasm. Deployed to Github Pages",

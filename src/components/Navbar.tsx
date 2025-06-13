@@ -32,7 +32,7 @@ const Navbar = () => {
             <div className="md:hidden">
               <button
                 type="button"
-                className="p-2 text-gray-700 rounded-md outline-hidden focus:border-gray-400 focus:border"
+                className="p-2 text-gray-700 rounded-md outline-hidden focus:border-gray-400 focus:border cursor-pointer"
                 onClick={() => setNavbar(!navbar)}
               >
                 {/* @ts-ignore */}
@@ -67,7 +67,7 @@ const Navbar = () => {
               {currentTheme === "dark" ? (
                 <button
                   type="button"
-                  className="bg-slate-100 p-2 rounded-xl"
+                  className="bg-slate-100 p-2 rounded-xl cursor-pointer"
                   onClick={() => setTheme("light")}
                 >
                   {/* @ts-ignore */}
@@ -76,7 +76,7 @@ const Navbar = () => {
               ) : (
                 <button
                   type="button"
-                  className="bg-slate-100 p-2 rounded-xl"
+                  className="bg-slate-100 p-2 rounded-xl cursor-pointer"
                   onClick={() => setTheme("dark")}
                 >
                   {/* @ts-ignore */}
