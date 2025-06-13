@@ -28,6 +28,7 @@ const HeroSection = () => {
             </span>
             based in Kathmandu, Nepal.
           </p>
+          {/* @ts-ignore */}
           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded-sm shadow-sm hover:bg-teal-700 cursor-pointer"
@@ -51,6 +52,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
+        {/* @ts-ignore */}
         <Link
           to="about"
           activeClass="active"
@@ -59,6 +61,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
+          {/* @ts-ignore */}
           <HiArrowDown size={35} className="animate-bounce" />
         </Link>
       </div>
