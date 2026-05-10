@@ -1,9 +1,8 @@
-import React from "react";
+
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
   AiOutlineTwitter,
-  AiOutlineYoutube,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -13,7 +12,7 @@ const Footer = () => {
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
           Binit Rupakheti
-          {/* biome-ignore lint/a11y/useAnchorContent: <explanation> */}
+          {/* biome-ignore lint/a11y/useAnchorContent: home link with no visible text */}
           <a href="/" className="hover:underline" />
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">

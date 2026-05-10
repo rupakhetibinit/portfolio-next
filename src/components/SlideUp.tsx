@@ -1,6 +1,6 @@
 "use client"; // this is a client component
 
-import React, { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, useRef, type ReactNode } from "react";
 interface Props {
   offset?: string;
   children?: ReactNode;

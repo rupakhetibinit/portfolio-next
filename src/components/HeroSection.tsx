@@ -1,6 +1,5 @@
 "use client"; // this is a client component
 import Image from "next/image";
-import React from "react";
 import { HiArrowDown } from "react-icons/hi";
 import { Link } from "react-scroll/modules";
 

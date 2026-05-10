@@ -1,6 +1,6 @@
 "use client";
 import { useTheme } from "next-themes";
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
 import { Link } from "react-scroll/modules";
@@ -49,7 +49,7 @@ const Navbar = () => {
           >
             <div className="items-center justify-center md:flex md:space-x-6 space-y-8 md:space-y-0">
               {NAV_ITEMS.map((item) => (
-                // @ts-ignore
+                // @ts-expect-error
                 <Link
                   key={item.page}
                   to={item.page}
